@@ -5,7 +5,7 @@ module.exports = {
     author: "@maadcode",
     twitterUsername: "@maadcode",
     image: "/twitter-img.png",
-    siteUrl: "https://maadcode.github.io",
+    siteUrl: "https://maadcode.netlify.app",
   },
   plugins: [
     `gatsby-transformer-sharp`,
