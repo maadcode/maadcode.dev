@@ -8,10 +8,10 @@ const contact = () => {
     <section className="contact-page">
       <article className="contact-form">
         <h3>Conversemos sobre tu gran idea</h3>
-        <form>
+        <form action="https://formspree.io/f/xpzoeled" method="POST">
           <div className="form-group">
-            <input type="text" placeholder="Nombre" className="form-control" />
-            <input type="email" placeholder="Correo" className="form-control" />
+            <input type="text" name="name" placeholder="Nombre" className="form-control" />
+            <input type="email" name="email" placeholder="Correo" className="form-control" />
             <textarea name="message" rows="5" placeholder="Mensaje" className="form-control"></textarea>
           </div>
           <button type="submit" className="submit-btn btn">Enviar</button>

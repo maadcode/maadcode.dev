@@ -1075,7 +1075,7 @@ Blog Template
 .blog-template img {
   width: 22rem;
   height: 15rem;
-  margin: 3rem 0;
+  margin: 3rem auto;
 }
 
 .blog-template h1,
