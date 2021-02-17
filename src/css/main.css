@@ -632,7 +632,7 @@ Services
 
 .service:hover {
   background: #667eea;
-  color: var(--clr-primary-10);
+  color: var(--clr-white);
 }
 
 .service:hover p {
@@ -754,14 +754,14 @@ Projects
 }
 
 .project-icon {
-  color: var(--clr-primary-5);
+  color: var(--clr-grey-1);
   font-size: 1.25rem;
   margin-right: 0.5rem;
   transition: var(--transition);
 }
 
 .project-icon:hover {
-  color: var(--clr-primary-1);
+  color: #667eea;
 }
 
 @media screen and (min-width: 576px) {
