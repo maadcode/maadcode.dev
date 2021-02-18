@@ -66,8 +66,14 @@ a {
   outline: none;
 }
 
-input {
+input,
+textarea,
+button {
   outline: none;
+}
+
+textarea {
+  resize: none;
 }
 
 h1,
