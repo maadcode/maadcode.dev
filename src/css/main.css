@@ -981,10 +981,26 @@ Blog Page
 */
 
 .banner-blog {
-  background: #333;
+  background: #0a0b0c;
+  background-image: url('../assets/blog-cover.png');
+  background-position: center;
+  background-repeat: no-repeat;
   color: #fff;
   text-align: center;
   padding: 5rem 0;
+  position: relative;
+}
+
+.banner-blog::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.18);
 }
 
 .banner-blog p {
