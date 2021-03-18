@@ -18,6 +18,9 @@ const Services = ({skills}) => {
                 if(skill.category === title) {
                   return <span key={skill.id}>{skill.name}</span>
                 }
+                else {
+                  return null
+                }
               })}
             </div>
           </article>

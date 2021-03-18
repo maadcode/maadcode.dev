@@ -31,8 +31,8 @@ const Hero = () => {
         <div>
           <h1>Hola! Soy <span>Manuel Dávila</span>.</h1>
           <h4>Desarrollador Frontend</h4>
-          <Link to="/contact" className="btn">Contáctame</Link>
-          <Link to="/about" className="btn">Acerca de mí</Link>
+          <Link to="/contacto" className="btn">Contáctame</Link>
+          <Link to="#about" className="btn">Acerca de mí</Link>
           <SocialLinks />
         </div>
       </article>

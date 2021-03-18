@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "Maadcode",
     description: "Este es mi website personal donde muestro mis proyectos personales y artículos sobre programación.",
-    author: "@maadcode",
-    twitterUsername: "@maadcode",
+    author: "Manuel Dávila",
+    twitterUsername: "maadcode",
     image: "/twitter-img.png",
     siteUrl: "https://maadcode.netlify.app",
   },

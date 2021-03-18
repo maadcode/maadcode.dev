@@ -16,7 +16,7 @@ export const About = ({about}) => {
           <p className="presentation">Permíteme presentarme.</p>
           <p>{info}</p>
           <p>{info2}</p> 
-          <Link to="/portfolio" className="btn">Ver proyectos</Link>
+          <Link to="/portafolio" className="btn">Ver proyectos</Link>
         </div>
       </div>
     </section>

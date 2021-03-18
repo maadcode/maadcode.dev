@@ -15,7 +15,7 @@ const data = [
   {
     id: 3,
     text: "portafolio",
-    url: "/portfolio/",
+    url: "/portafolio/",
   },
   {
     id: 4,
@@ -25,7 +25,7 @@ const data = [
   {
     id: 5,
     text: "contacto",
-    url: "/contact/",
+    url: "/contacto/",
   },
 ]
 

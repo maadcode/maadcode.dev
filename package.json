@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "maadcode-gatsby",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Maadcode Website with Gatsby for Frontend",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {

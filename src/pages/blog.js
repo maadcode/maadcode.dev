@@ -13,8 +13,12 @@ const Blog = ({
 }) => {
   return <Layout>
     <SEO title="Blog" description="Blog Maadcode. En esta página muestro la lista de artículos sobre frontend, backend, servidores y otros temas tecnológicos." />
+    <section className="banner-blog">
+      <h1>Maadcode Blog</h1>
+      <p>Experiencias, opiniones y tutoriales sobre programación y desarrollo web</p>
+    </section>
     <section className="blog-page">
-      <Blogs blogs={blogs} title="Blog" />
+      <Blogs blogs={blogs} title="Mis artículos" />
     </section>
   </Layout>
 }
