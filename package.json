@@ -1,7 +1,7 @@
 {
   "name": "maadcode-gatsby",
   "private": true,
-  "description": "Maadcode Website with Gatsby for Frontend",
+  "description": "Frontend Maadcode Website",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
