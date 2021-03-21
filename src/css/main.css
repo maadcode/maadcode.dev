@@ -841,7 +841,7 @@ Blog
 }
 
 .article__info span {
-  color: gray;
+  color: var(--clr-grey-5);
 }
 
 .btn-article {
