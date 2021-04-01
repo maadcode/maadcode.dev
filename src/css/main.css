@@ -180,10 +180,6 @@ p {
   max-width: 1170px;
 }
 
-.blog-content > p {
-  display: flex;
-}
-
 @media screen and (min-width: 992px) {
   .section-center {
     width: 95vw;
@@ -1072,6 +1068,7 @@ Blog Template
   height: auto;
   max-height: 30rem;
   margin: 3rem auto;
+  display: flex;
 }
 
 .blog-template h1,
