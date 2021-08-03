@@ -54,7 +54,6 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
-  margin-top: 5rem;
 }
 
 ul {
@@ -175,15 +174,9 @@ p {
 }
 
 .section-center {
-  width: 90vw;
+  width: 80%;
   margin: 0 auto;
   max-width: 1170px;
-}
-
-@media screen and (min-width: 992px) {
-  .section-center {
-    width: 95vw;
-  }
 }
 
 /* added during recording */
@@ -240,7 +233,7 @@ Navbar
 */
 
 .navbar {
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -317,12 +310,6 @@ Navbar
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .navbar {
-    background: transparent;
   }
 }
 
@@ -476,9 +463,7 @@ Hero
 /* underline added to globals */
 
 .hero {
-  margin-top: -5rem;
-  padding-top: 5rem;
-  height: 100vh;
+  height: calc(100vh - 5rem);
   background-image: url('../assets/bg-pattern-top-mobile.svg');
   background-position: left top;
   background-repeat: no-repeat;
