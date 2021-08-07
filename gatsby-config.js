@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: "Maadcode",
-    description: "Este es mi website personal donde muestro mis proyectos personales y artículos sobre desarrollo web.",
-    author: "Manuel Dávila",
-    twitterUsername: "maadcode",
-    image: "/twitter-img.png",
+    siteTitle: "Maadcode",
+    siteDescription: "Este es mi website personal donde muestro mis proyectos personales y artículos sobre desarrollo web.",
+    siteAuthor: "Manuel Dávila",
+    siteTwitterUsername: "@maadcode",
+    siteImage: "/twitter-img.png",
     siteUrl: "https://maadcode.dev",
   },
   plugins: [
@@ -23,8 +23,7 @@ module.exports = {
       resolve: `gatsby-source-strapi`,
       options: {
         apiURL: `http://strapi-maadcode.herokuapp.com`,
-        queryLimit: 1000, // Default to 100
-        //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
+        queryLimit: 1000,
         contentTypes: [`projects`, `blogs`, `skills`],
         singleTypes: [`about`],
       },
