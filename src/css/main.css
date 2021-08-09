@@ -1045,7 +1045,7 @@ Blog Template
   background: #222;
   color: yellow;
   overflow-x: scroll;
-  padding: 1rem 1.5rem;
+  padding: 1rem;
   border-radius: var(--radius);
 }
 
