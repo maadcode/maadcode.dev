@@ -689,10 +689,6 @@ Projects
   z-index: 1;
 }
 
-.project-img img {
-  object-fit: contain;
-}
-
 .project-info {
   background: var(--clr-white);
   padding: 1rem 2rem;
