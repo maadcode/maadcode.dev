@@ -1,4 +1,4 @@
-## In this repository you will find frontend code of my [personal website](https://maadcode.netlify.app) 
+## In this repository you will find frontend code of my [personal website](https://maadcode.dev) 
 
 Used technology :
 
